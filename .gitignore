@@ -1,0 +1,17 @@
+# dependencies & build output
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# secrets – NEVER commit these
+.env
+.env.*
+!.env.example
+
+# misc
+.DS_Store
+drizzle.tmp.config.json
+.vercel
+npm-debug.log*
